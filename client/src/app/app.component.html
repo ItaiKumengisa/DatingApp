@@ -5,3 +5,7 @@
     {{user.userName}}
   </li>
 </ul>
+
+<mat-list id="users">
+  <mat-list-item *ngFor="let user of users">{{user.userName}}</mat-list-item>
+</mat-list>
