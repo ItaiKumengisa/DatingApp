@@ -1,11 +1,6 @@
-<h1>{{title}}</h1>
+<app-nav></app-nav>
 
-<ul>
-  <li *ngFor="let user of users">
-    {{user.userName}}
-  </li>
-</ul>
+<div class="container mt-3">
+  <app-home></app-home>
+</div>
 
-<mat-list id="users">
-  <mat-list-item *ngFor="let user of users">{{user.userName}}</mat-list-item>
-</mat-list>
